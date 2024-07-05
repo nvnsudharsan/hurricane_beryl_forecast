@@ -51,12 +51,14 @@ st.write('Experimental Forecast from UT Jackson School of Geosciences with TACC 
 st.header("Hurricane Beryl forecast from IOLA (Initialization: 2024-07-02 12:00:00 UTC)")
 image_placeholder1 = st.empty()
 imagePath1 = "IOLA.gif"
-displayLocalGIF2(image_placeholder1, imagePath1,"Local Image")
-#image_placeholder2 = st.empty()
+displayLocalGIF2(image_placeholder1, imagePath1,"")
+
 
 # Display the second GIF
 st.header("Hurricane Beryl forecast from Graphcast Operational (Initialization: 2024-07-04 00:00:00 UTC)")
-st.image("graphcast.gif")
+image_placeholder2 = st.empty()
+imagePath2 = "graphcast.gif"
+displayLocalGIF2(image_placeholder2, imagePath2,"")
 
 st.header('NHC advisory released on July 4, 2024 5PM EDT')
 st.image('NHC_cone.png')
