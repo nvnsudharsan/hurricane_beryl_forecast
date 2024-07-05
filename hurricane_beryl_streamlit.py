@@ -71,12 +71,13 @@ image_placeholder1 = st.empty()
 imagePath1 = "IOLA.gif"
 displayLocalGIF1(image_placeholder1, imagePath1,"Initialization: 2024-07-02 12:00:00 UTC")
 
-
 # Display the second GIF
-st.header("Hurricane Beryl forecast from Graphcast Operational")
+st.header("Hurricane Beryl forecast from Graphcast")
 image_placeholder2 = st.empty()
 imagePath2 = "graphcast.gif"
 displayLocalGIF2(image_placeholder2, imagePath2,"Initialization: 2024-07-04 00:00:00 UTC")
 
-st.header('NHC advisory released on July 4, 2024 5PM EDT')
+st.header('NHC advisory released on July 4, 2024 at 5 PM EDT')
 st.image('NHC_cone.png')
+
+st.write("PS: This is research/experimental")
