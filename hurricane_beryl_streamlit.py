@@ -22,7 +22,7 @@ st.write('Experimental Forecast from UT Jackson School of Geosciences with TACC 
 # Display the first GIF
 st.header("Hurricane Beryl forecast from IOLA (Initialization: 2024-07-02 12:00:00 UTC)")
 image_placeholder1 = st.empty()
-imagePath1 = "IOLA.gif"
+imagePath1 = "https://github.com/nvnsudharsan/hurricane_beryl_forecast/blob/main/IOLA.gif"
 displayLocalGIF(image_placeholder1, imagePath1,"Local Image")
 
 # Display the second GIF
