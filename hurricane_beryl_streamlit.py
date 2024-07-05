@@ -55,7 +55,7 @@ def displayLocalGIF2(placeholder, localImagePath, caption):
     
     # Display the GIF and caption with positioning relative to the placeholder
     placeholder.markdown(f"""<div style="{container_style}">
-                    <img src="data:image/gif;base64,{imgData}" width='1000' height='750'>
+                    <img src="data:image/gif;base64,{imgData}" width='1000' height='500'>
                     <p style="{caption_style}">{caption}</p>
                     </div>""", unsafe_allow_html=True)
 
@@ -63,7 +63,7 @@ def displayLocalGIF2(placeholder, localImagePath, caption):
 
 # Set the title of the app
 st.title("Hurricane Beryl Forecast")
-st.write('Experimental Forecast from UT Jackson School of Geosciences with TACC resources using ongoing research models IOLA (with NOAA and India) and Graphcast Operational setup at UT')
+st.write('Experimental Forecast from UT Austin, Jackson School of Geosciences with TACC resources using ongoing research models IOLA (with NOAA and India) and Graphcast Operational setup at UT')
 # Display the first GIF
 st.header("Hurricane Beryl forecast from IOLA (Initialization: 2024-07-02 12:00:00 UTC)")
 image_placeholder1 = st.empty()
