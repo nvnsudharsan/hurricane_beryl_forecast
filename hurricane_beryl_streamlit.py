@@ -30,7 +30,7 @@ def displayLocalGIF1(placeholder, localImagePath, caption):
     
     # Display the GIF and caption with positioning relative to the placeholder
     placeholder.markdown(f"""<div style="{container_style}">
-                    <img src="data:image/gif;base64,{imgData}" width='1000' height='600'>
+                    <img src="data:image/gif;base64,{imgData}"> #<img src="data:image/gif;base64,{imgData}" width='1000' height='600'>
                     <p style="{caption_style}">{caption}</p>
                     </div>""", unsafe_allow_html=True)
 
