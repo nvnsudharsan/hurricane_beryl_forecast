@@ -65,17 +65,17 @@ def displayLocalGIF2(placeholder, localImagePath, caption):
 st.title("Hurricane Beryl Forecast")
 st.write('Experimental Forecast from UT Austin, Jackson School of Geosciences with TACC resources using ongoing research models IOLA (with NOAA and India) and Graphcast Operational setup at UT')
 # Display the first GIF
-st.header("Hurricane Beryl forecast from IOLA (Initialization: 2024-07-02 12:00:00 UTC)")
+st.header("Hurricane Beryl forecast from IOLA")
 image_placeholder1 = st.empty()
 imagePath1 = "IOLA.gif"
-displayLocalGIF1(image_placeholder1, imagePath1,"")
+displayLocalGIF1(image_placeholder1, imagePath1,"Initialization: 2024-07-02 12:00:00 UTC")
 
 
 # Display the second GIF
-st.header("Hurricane Beryl forecast from Graphcast Operational (Initialization: 2024-07-04 00:00:00 UTC)")
+st.header("Hurricane Beryl forecast from Graphcast Operational")
 image_placeholder2 = st.empty()
 imagePath2 = "graphcast.gif"
-displayLocalGIF2(image_placeholder2, imagePath2,"")
+displayLocalGIF2(image_placeholder2, imagePath2,"Initialization: 2024-07-04 00:00:00 UTC")
 
 st.header('NHC advisory released on July 4, 2024 5PM EDT')
 st.image('NHC_cone.png')
