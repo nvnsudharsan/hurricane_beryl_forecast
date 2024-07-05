@@ -62,4 +62,4 @@ st.markdown("<H3 style='text-align: center;'>National Hurricane Center advisory<
 st.image('https://www.nhc.noaa.gov/storm_graphics/AT02/refresh/AL022024_5day_cone_no_line_and_wind+png/024651_5day_cone_no_line_and_wind.png')
 
 st.write("PS: This is experimental")
-st.write("Last updated on 4 July 2024 at 11:30 PM CST")
+st.write("Last updated on 5th July 2024 at 12:30 AM CST")
