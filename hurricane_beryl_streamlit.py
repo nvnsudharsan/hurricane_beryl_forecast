@@ -62,16 +62,8 @@ def displayLocalGIF2(placeholder, localImagePath, caption):
 
 
 # Set the title of the app
+st.markdown("<h1 style='text-align: center; color: red;'>Some title</h1>", unsafe_allow_html=True)
 st.title("Hurricane Beryl Forecast")
-title_alignment=
-"""
-<style>
-#the-title {
-  text-align: center
-}
-</style>
-"""
-st.markdown(title_alignment, unsafe_allow_html=True)
 st.write('Experimental Forecast from UT Austin, Jackson School of Geosciences with TACC resources using ongoing research models IOLA (with NOAA and India) and Graphcast Operational setup at UT')
 # Display the first GIF
 st.header("Hurricane Beryl forecast from IOLA")
