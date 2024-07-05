@@ -78,6 +78,6 @@ imagePath2 = "graphcast.gif"
 displayLocalGIF2(image_placeholder2, imagePath2,"Initialization: 2024-07-04 00:00:00 UTC")
 
 st.markdown("<H3 style='text-align: center; color: Black;'>National Hurricane Center advisory</H3>", unsafe_allow_html=True)
-st.image('NHC_cone.png')
+st.image('https://www.nhc.noaa.gov/storm_graphics/AT02/refresh/AL022024_5day_cone_no_line_and_wind+png/024651_5day_cone_no_line_and_wind.png')
 
 st.write("PS: This is experimental")
