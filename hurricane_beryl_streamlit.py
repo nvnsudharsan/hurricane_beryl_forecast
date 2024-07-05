@@ -62,17 +62,17 @@ def displayLocalGIF2(placeholder, localImagePath, caption):
 
 
 # Set the title of the app
-st.markdown("<H1 style='text-align: center; color: Black;'>Hurricane Beryl Forecast</H1>", unsafe_allow_html=True)
+st.markdown("<H1 style='text-align: center; color: White;'>Hurricane Beryl Forecast</H1>", unsafe_allow_html=True)
 #st.title("")
 st.write('Experimental Forecast from UT Austin, Jackson School of Geosciences with TACC resources using ongoing research models IOLA (with NOAA and India) and Graphcast Operational setup at UT')
 # Display the first GIF
-st.markdown("<H3 style='text-align: center; color: Black;'>Hurricane Beryl forecast from IOLA</H3>", unsafe_allow_html=True)
+st.markdown("<H3 style='text-align: center; color: White;'>Hurricane Beryl forecast from IOLA</H3>", unsafe_allow_html=True)
 image_placeholder1 = st.empty()
 imagePath1 = "IOLA.gif"
 displayLocalGIF1(image_placeholder1, imagePath1,"Initialization: 2024-07-02 12:00:00 UTC")
 
 # Display the second GIF
-st.markdown("<H3 style='text-align: center; color: Black;'>Hurricane Beryl forecast from Graphcast Operational</H3>", unsafe_allow_html=True)
+st.markdown("<H3 style='text-align: center; color: White;'>Hurricane Beryl forecast from Graphcast Operational</H3>", unsafe_allow_html=True)
 image_placeholder2 = st.empty()
 imagePath2 = "graphcast.gif"
 displayLocalGIF2(image_placeholder2, imagePath2,"Initialization: 2024-07-04 00:00:00 UTC")
