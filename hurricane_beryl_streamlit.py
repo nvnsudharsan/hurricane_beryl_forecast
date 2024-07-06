@@ -64,4 +64,4 @@ st.image('https://www.nhc.noaa.gov/storm_graphics/AT02/refresh/AL022024_5day_con
 
 st.write("PS: This is experimental and GFS is used to initialize the models")
 st.write("Disclaimer: This experimental forecast is not for public advisory or use, or any decision making and is only updated here for the lab and project teams to test the models. No liability is assumed. The official forecasts are available from NOAA/NWS")
-st.write("Last updated on 5th July 2024 at 12:30 AM CST")
+st.write("Last updated on 6th July 2024 at 12:15 AM CST")
