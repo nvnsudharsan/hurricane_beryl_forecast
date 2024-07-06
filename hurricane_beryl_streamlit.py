@@ -62,7 +62,7 @@ st.write('The forecast shows that the cumulative precipitation in and around Aus
 
 st.markdown("<H3 style='text-align: center;'>Previous Forecasts</H3>", unsafe_allow_html=True)
 image_placeholder4 = st.empty()
-imagePath4 = "graphcast1_old.png"
+imagePath4 = "graphcast1_old.gif"
 displayLocalGIF(image_placeholder4, imagePath4,"Initialization: 2024-07-05 00:00:00 UTC")
 
 #imagePath3 = "IOLA_old.png"
