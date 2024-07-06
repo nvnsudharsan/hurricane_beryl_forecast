@@ -56,7 +56,7 @@ imagePath2 = "graphcast1.gif"
 displayLocalGIF(image_placeholder2, imagePath2,"Initialization: 2024-07-05 00:00:00 UTC")
 
 image_placeholder3 = st.empty()
-imagePath3 = "graphcast2.gif"
+imagePath3 = "graphcast2.png"
 displayLocalGIF(image_placeholder3, imagePath3,"Initialization: 2024-07-05 00:00:00 UTC")
 
 st.markdown("<H3 style='text-align: center;'>National Hurricane Center advisory</H3>", unsafe_allow_html=True)
