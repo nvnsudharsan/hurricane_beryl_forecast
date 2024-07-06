@@ -61,8 +61,9 @@ displayLocalGIF(image_placeholder3, imagePath3,"Initialization: 2024-07-06 00:00
 st.write('The forecast shows that the cumulative precipitation in and around Austin will be less than 1.5 inches.')
 
 st.markdown("<H3 style='text-align: center;'>Previous Forecasts</H3>", unsafe_allow_html=True)
-imagePath3 = "graphcast1_old.png"
-displayLocalGIF(image_placeholder3, imagePath3,"Initialization: 2024-07-05 00:00:00 UTC")
+image_placeholder4 = st.empty()
+imagePath4 = "graphcast1_old.png"
+displayLocalGIF(image_placeholder4, imagePath4,"Initialization: 2024-07-05 00:00:00 UTC")
 
 #imagePath3 = "IOLA_old.png"
 #displayLocalGIF(image_placeholder3, imagePath3,"Initialization: 2024-07-02 12:00:00 UTC")
