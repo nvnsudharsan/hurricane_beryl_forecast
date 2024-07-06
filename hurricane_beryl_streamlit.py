@@ -68,7 +68,7 @@ displayLocalGIF(image_placeholder4, imagePath4,"Initialization: 2024-07-05 00:00
 st.markdown("<H5 style='text-align: center;'>Experimental HWRFx</H5>", unsafe_allow_html=True)
 image_placeholder5 = st.empty()
 imagePath5 = "IOLA_old.gif"
-#displayLocalGIF(image_placeholder5, imagePath5,"Initialization: 2024-07-02 12:00:00 UTC")
+displayLocalGIF(image_placeholder5, imagePath5,"Initialization: 2024-07-02 12:00:00 UTC")
 
 
 st.markdown("<H3 style='text-align: center;'>National Hurricane Center advisory</H3>", unsafe_allow_html=True)
