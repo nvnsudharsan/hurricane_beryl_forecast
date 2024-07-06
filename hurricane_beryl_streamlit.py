@@ -50,9 +50,10 @@ displayLocalGIF(image_placeholder1, imagePath1,"Initialization: 2024-07-02 12:00
 
 # Display the second GIF
 st.markdown("<H3 style='text-align: center;'>Hurricane Beryl forecast from Graphcast Operational</H3>", unsafe_allow_html=True)
+st.write("Hurricane Beryl in Texas")
 image_placeholder2 = st.empty()
 imagePath2 = "graphcast1.gif"
-displayLocalGIF(image_placeholder2, imagePath2,"Initialization: 2024-07-04 00:00:00 UTC")
+displayLocalGIF(image_placeholder2, imagePath2,"Initialization: 2024-07-05 00:00:00 UTC")
 
 image_placeholder3 = st.empty()
 imagePath3 = "graphcast2.gif"
