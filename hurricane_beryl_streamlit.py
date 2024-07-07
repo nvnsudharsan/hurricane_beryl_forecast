@@ -55,7 +55,7 @@ displayLocalGIF(image_placeholder8, imagePath8,"Initialization: 2024-07-06 12:00
 
 # Display the second GIF
 st.markdown("<H3 style='text-align: center;'>Hurricane Beryl forecast from Graphcast Operational</H3>", unsafe_allow_html=True)
-st.write('Graphcast is an AI/ML model developed by Google DeepMind. We are running this model on TACC Lonestar6 GPUs with initial conditions from GFS')
+st.write('Graphcast is an AI/ML model developed by Google DeepMind. We are running this model on TACC Lonestar6 GPUs with initial conditions from GFS.')
 image_placeholder2 = st.empty()
 imagePath2 = "graphcast1.gif"
 displayLocalGIF(image_placeholder2, imagePath2,"Initialization: 2024-07-07 00:00:00 UTC")
