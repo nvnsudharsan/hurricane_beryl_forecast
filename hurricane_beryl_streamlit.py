@@ -44,6 +44,7 @@ st.markdown("<H1 style='text-align: center;'>Hurricane Beryl Forecast</H1>", uns
 st.write('Experimental Forecast from UT Austin, Jackson School of Geosciences with TACC resources using ongoing research models experimental HWRFx (with NOAA and India) and Graphcast Operational setup at UT')
 # Display the first GIF
 st.markdown("<H3 style='text-align: center;'>Hurricane Beryl forecast from Experimental HWRFx</H3>", unsafe_allow_html=True)
+st.write('HWRFx is a physics or dynamics based model without ocean coupling or data assimilation.')
 image_placeholder1 = st.empty()
 imagePath1 = "IOLA1.gif"
 displayLocalGIF(image_placeholder1, imagePath1,"Initialization: 2024-07-06 12:00:00 UTC")
@@ -54,6 +55,7 @@ displayLocalGIF(image_placeholder8, imagePath8,"Initialization: 2024-07-06 12:00
 
 # Display the second GIF
 st.markdown("<H3 style='text-align: center;'>Hurricane Beryl forecast from Graphcast Operational</H3>", unsafe_allow_html=True)
+st.write('Graphcast is an AI/ML model developed by Google DeepMind. We are running this model on TACC Lonestar6 GPUs with initial conditions from GFS')
 image_placeholder2 = st.empty()
 imagePath2 = "graphcast1.gif"
 displayLocalGIF(image_placeholder2, imagePath2,"Initialization: 2024-07-07 00:00:00 UTC")
